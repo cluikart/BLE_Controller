@@ -1,17 +1,40 @@
 {
   "name": "electronapp",
   "version": "0.1.0",
+  "main": "public/main.js",
   "private": true,
   "dependencies": {
+    "browserify": "^16.3.0",
+    "classnames": "^2.2.6",
+    "framer": "^1.0.8",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-react": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "node-notifier": "^5.4.0",
     "react": "^16.8.6",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-geolocated": "^2.5.0",
+    "react-icons-weather": "^1.0.5",
+    "react-native": "^0.59.8",
+    "react-pose-text": "^3.1.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1",
+    "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron-start": "electron ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^5.0.2",
+    "typescript": "^3.4.5"
   }
 }

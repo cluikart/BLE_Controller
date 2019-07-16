@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .App-logo {
@@ -9,12 +18,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -22,6 +25,122 @@
 .App-link {
   color: #61dafb;
 }
+
+.button {
+  background-color: #ffffff; /* Green */
+  color: #282c34;
+  border-radius: 2px;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #282c34; /* Green */
+  color: white;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover { 
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8d7ad;
+}
+
+.bm-overlay {
+  background: rgba(0,0,0,0.3);
+}
+
+.Clock{
+  margin: 20% auto;
+  background-color: #333333;
+  width: 20%;
+  height: 60%;
+  border-color: #333333;
+  border-width: 5px;
+  border-style: solid;
+}
+.Clock-Text{
+  font-family: 'Teko', sans-serif;
+  color: #EEEEEE;
+  font-size: 60px;
+  text-align: center;
+}
+
+.Clock:hover  .Clock-Text {
+  color: #333333;
+}
+.Clock:hover{
+  background-color: #EEEEEE;
+}
+
+
+.weather {
+  width: 20%;
+  margin: 20% auto;
+  text-align: center;
+  border-color: #333333;
+  border-width: 5px;
+  border-style: solid;
+}
+.weather-text {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+}
+.weather:hover .weather-text{
+  color: white;
+}
+.weather:hover .icon {
+  color: white;
+}
+.weather:hover {
+  background-color: #333333;
+}
+.icon {
+  color:#333333;
+  font-size: 400%;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -31,3 +150,4 @@
     transform: rotate(360deg);
   }
 }
+
