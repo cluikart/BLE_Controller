@@ -14,7 +14,7 @@
     "gulp-server-livereload": "^1.9.2",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.1",
-    "node-notifier": "^5.4.0",
+    "node-notifier": "^8.0.1",
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
